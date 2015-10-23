@@ -1,0 +1,729 @@
+# vsim +typdelays -t ns -l transcript.txt -L MP2_2 -L ieee -multisource_delay latest -i -foreign {hdsInit /rem_apps/solaris8/fpgadv52/Hds/resources/downstream/modelsim/ModelSim_32Bit.dll} -pli /rem_apps/solaris8/fpgadv52/Hds/resources/downstream/modelsim/ModelSim_32Bit.dll MP2_2.CPU(struct) 
+# Loading /rem_apps/solaris8/fpgadv52/Hds/resources/downstream/modelsim/ModelSim_32Bit.dll
+# //  ModelSim SE 5.5e Oct  1 2001 SunOS 5.8
+# //
+# //  Copyright (c) Mentor Graphics Corporation, 1982-2001, All Rights Reserved.
+# //                       UNPUBLISHED, LICENSED SOFTWARE.
+# //            CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+# //          PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS.
+# //
+# //  Copyright (c) Model Technology Incorporated 1990-2001, All Rights Reserved.
+# //
+# Loading /apps/solaris8/fpgadv52/Modeltech/bin/../sunos5/../std.standard
+# Loading /apps/solaris8/fpgadv52/Modeltech/bin/../sunos5/../ieee.std_logic_1164(body)
+# Loading /apps/solaris8/fpgadv52/Modeltech/bin/../sunos5/../ieee.numeric_std(body)
+# Loading /work1/ece411/skim41/mp2_2/compile.lc3b_types
+# Loading /work1/ece411/skim41/mp2_2/compile.cpu(struct)
+# Loading /work1/ece411/skim41/mp2_2/compile.control(fsm)
+# Loading /work1/ece411/skim41/mp2_2/compile.datapath(struct)
+# Loading /work1/ece411/skim41/mp2_2/compile.adj6(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.adj9(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.alu(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.bradd(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.destreg(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.gencc(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.ir(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.nzp(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.nzpsplit(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.plus2(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.reg16(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.regfile(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.shift(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.storemux(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.storemux1(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.wordmux2(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.wordmux4(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.zext(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.memory(struct)
+# Loading /work1/ece411/skim41/mp2_2/compile.and1(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.and2(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.cache_controller(fsm)
+# Loading /work1/ece411/skim41/mp2_2/compile.comparator1(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.comparator2(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.dram(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.data0(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.data1(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.lru_bit(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.mux_2(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.mux_4(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.valid_bit0(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.valid_bit1(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.tag0(untitled)
+# Loading /work1/ece411/skim41/mp2_2/compile.tag1(untitled)
+# hds_anim_prefs 10000 0 0 
+do start.do
+# --- Executing initialization force file for mp1 --- 
+# Setting clock period to 30 ns, starting at 30 ns. 
+# Resetting processor for 5 ns. 
+# Initializing the processor. 
+# Done initializing processor, ready to simulate. 
+do way1.do
+# WARNING: Simulation log file vsim.wlf is open by another ModelSim application or was not closed properly.
+# WARNING: Could not open log file vsim.wlf, using /tmp/vsimwCAAQtayvT.wlf instead.
+# ERROR: No objects found matching "/cpu/i1/i6/data1"
+# Executing ONERROR command at macro ./way1.do line 15
+view signals
+# .signals
+run 90000
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i12
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i12
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i12
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i12
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i8
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i8
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i8
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i8
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i7
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i7
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i7
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i7
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i6
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i6
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i6
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i6
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i8
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i8
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i8
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i8
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i6
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i6
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i6
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i6
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i12
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i12
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i12
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i12
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i7
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i7
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i7
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i1/i7
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Note: Memory Write
+#    Time: 5 ns  Iteration: 0  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 9 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 9 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 9 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 75 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 75 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 75 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 125 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 125 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 125 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 159 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 159 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 159 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 175 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 175 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 175 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 225 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 225 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 225 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 250 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 250 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 250 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 275 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 275 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 275 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 325 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 325 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 325 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 350 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 350 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 350 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 375 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 375 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 375 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 400 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 400 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 400 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 425 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 425 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 425 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 475 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 475 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 475 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 500 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 500 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 500 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 525 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 525 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 525 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 575 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 575 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 575 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 600 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 600 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 600 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 625 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 625 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 625 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Note: Memory Write
+#    Time: 650 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 675 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 675 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 675 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 700 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 700 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 700 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 725 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 725 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 725 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 759 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 759 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 759 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 775 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 775 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 775 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 800 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 800 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 800 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 804 ns  Iteration: 1  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 804 ns  Iteration: 1  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 804 ns  Iteration: 1  Instance: /cpu/i2/i13
+# ** Note: Memory Write
+#    Time: 2400 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 3200 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 4050 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 5050 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 6050 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 7050 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 7800 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 8650 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 9950 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 10950 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 11700 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 12550 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 14150 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 15250 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 16500 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 17350 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 18350 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 19350 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 20500 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 21350 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 22900 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 23900 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 25600 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 27150 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 28150 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 29850 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 31400 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 32400 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 34100 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 35650 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 36650 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 38350 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 39900 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 40900 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 42600 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 44150 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 45150 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 46850 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 48400 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 49400 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 51100 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 52650 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 53650 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 55350 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 56900 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 57900 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 59600 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 61150 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 62950 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 64650 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 65850 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 67150 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 68 us  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 69 us  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 70200 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70354 ns  Iteration: 1  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70354 ns  Iteration: 1  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70354 ns  Iteration: 1  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70355 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70355 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70355 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70356 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70356 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70356 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70356 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70356 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70356 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70375 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70375 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70375 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70400 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70400 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70400 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70425 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70425 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70425 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70450 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70450 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70450 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70475 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70475 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70475 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70500 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70500 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70500 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70509 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70509 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70509 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70525 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70525 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70525 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70550 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70550 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70550 ns  Iteration: 0  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70554 ns  Iteration: 1  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70554 ns  Iteration: 1  Instance: /cpu/i2/i13
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70554 ns  Iteration: 1  Instance: /cpu/i2/i13
+# ** Note: Memory Write
+#    Time: 71850 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 72850 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 74600 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 77600 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 80600 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 83600 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 86600 ns  Iteration: 2  Instance: /cpu/i1/i10
+# ** Note: Memory Write
+#    Time: 89600 ns  Iteration: 2  Instance: /cpu/i1/i10
+destroy .wave
+quit
